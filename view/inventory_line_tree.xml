@@ -5,4 +5,13 @@ this repository contains the full copyright notices and license terms. -->
     <xpath expr="/tree/field[@name='product']" position="after">
         <field name="name"/>
     </xpath>
+
+    <xpath expr="/tree/field[@name='lot']" position="replace">
+
+    </xpath>
+
+    <xpath expr="/tree/field[@name='name']" position="after">
+        <field name="lot"/>
+    </xpath>
+
 </data>
